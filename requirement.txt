@@ -1,0 +1,27 @@
+# ---------- API framework ----------
+fastapi==0.141.1
+uvicorn[standard]==0.54.0
+
+# ---------- Data validation and settings ----------
+pydantic==2.13.5
+pydantic-settings==2.15.0
+email-validator==2.3.0
+
+# ---------- Database (PostgreSQL 18) ----------
+sqlalchemy[asyncio]==2.1.1
+asyncpg==0.31.0
+alembic==1.20.0
+
+# ---------- Outgoing HTTP (push alerts through Firebase) ----------
+httpx==0.28.1
+
+# ---------- Security (passwords and login tokens) ----------
+pwdlib[argon2]==0.3.1
+pyjwt==2.15.0
+cryptography==50.0.2
+
+# ---------- Development tools (testing, linting) ----------
+pytest==9.1.1
+pytest-asyncio==1.4.0
+httpx-ws==0.9.0
+ruff==0.16.9

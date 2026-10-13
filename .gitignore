@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.idea/
+media_store/
+*service-account*.json
